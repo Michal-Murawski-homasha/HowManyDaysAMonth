@@ -5,10 +5,10 @@ public class HowManyDaysAMonth {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the month number: ");
         int i = in.nextInt();
-        NumberOfDaysInAMonth(i);
+        numberOfDaysInAMonth(i);
     }
 
-    private static void NumberOfDaysInAMonth(int i) {
+    private static void numberOfDaysInAMonth(int i) {
         switch (i) {
             case 1:
                 System.out.println("The number of days in month number " + i + " is 31");
